@@ -49,7 +49,7 @@ flags = [
 '/usr/local/include',
 # user define start
 '-I',
-'/home/tanhuayou/work/diy/c/lang/include'
+'/home/tanhuayou/work/diy/C/lang/include'
 # user define end
 ]
 
