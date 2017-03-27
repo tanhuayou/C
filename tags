@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CFileMap	filemap.cpp	/^CFileMap::CFileMap()$/;"	f	class:CFileMap	signature:()
+CFileMap	filemap.h	/^	CFileMap();$/;"	p	class:CFileMap	access:public	signature:()
+CFileMap	filemap.h	/^class CFileMap$/;"	c
+CFileMap::CFileMap	filemap.cpp	/^CFileMap::CFileMap()$/;"	f	class:CFileMap	signature:()
+CFileMap::CFileMap	filemap.h	/^	CFileMap();$/;"	p	class:CFileMap	access:public	signature:()
+CFileMap::CloseMap	filemap.cpp	/^void CFileMap::CloseMap()$/;"	f	class:CFileMap	signature:()
+CFileMap::CloseMap	filemap.h	/^	void CloseMap();$/;"	p	class:CFileMap	access:public	signature:()
+CFileMap::OpenMap	filemap.cpp	/^int CFileMap::OpenMap(const char* pFileName,int iMapLen,int iOffset)$/;"	f	class:CFileMap	signature:(const char* pFileName,int iMapLen,int iOffset)
+CFileMap::OpenMap	filemap.h	/^	int OpenMap(const char* pFileName,int iMapLen,int iOffset);$/;"	p	class:CFileMap	access:public	signature:(const char* pFileName,int iMapLen,int iOffset)
+CFileMap::Read	filemap.cpp	/^int CFileMap::Read(char *pBuf,int iReadLen)$/;"	f	class:CFileMap	signature:(char *pBuf,int iReadLen)
+CFileMap::Read	filemap.h	/^	int Read(char *pBuf,int iReadLen);$/;"	p	class:CFileMap	access:public	signature:(char *pBuf,int iReadLen)
+CFileMap::Write	filemap.cpp	/^int CFileMap::Write(const char *pBuf,int iWriteLen)$/;"	f	class:CFileMap	signature:(const char *pBuf,int iWriteLen)
+CFileMap::Write	filemap.h	/^	int Write(const char *pBuf,int iWriteLen);$/;"	p	class:CFileMap	access:public	signature:(const char *pBuf,int iWriteLen)
+CFileMap::m_fd	filemap.h	/^	int 	m_fd;			\/\/file descriptor of FileName$/;"	m	class:CFileMap	access:private
+CFileMap::m_iMapLength	filemap.h	/^	int		m_iMapLength; 	\/\/mapping length$/;"	m	class:CFileMap	access:private
+CFileMap::m_iOperatorPos	filemap.h	/^	int		m_iOperatorPos; \/\/current operator position$/;"	m	class:CFileMap	access:private
+CFileMap::m_pStart	filemap.h	/^	void* 	m_pStart; 		\/\/base address$/;"	m	class:CFileMap	access:private
+CFileMap::~CFileMap	filemap.cpp	/^CFileMap::~CFileMap()$/;"	f	class:CFileMap	signature:()
+CFileMap::~CFileMap	filemap.h	/^	~CFileMap();$/;"	p	class:CFileMap	access:public	signature:()
+CloseMap	filemap.cpp	/^void CFileMap::CloseMap()$/;"	f	class:CFileMap	signature:()
+CloseMap	filemap.h	/^	void CloseMap();$/;"	p	class:CFileMap	access:public	signature:()
+OpenMap	filemap.cpp	/^int CFileMap::OpenMap(const char* pFileName,int iMapLen,int iOffset)$/;"	f	class:CFileMap	signature:(const char* pFileName,int iMapLen,int iOffset)
+OpenMap	filemap.h	/^	int OpenMap(const char* pFileName,int iMapLen,int iOffset);$/;"	p	class:CFileMap	access:public	signature:(const char* pFileName,int iMapLen,int iOffset)
+Read	filemap.cpp	/^int CFileMap::Read(char *pBuf,int iReadLen)$/;"	f	class:CFileMap	signature:(char *pBuf,int iReadLen)
+Read	filemap.h	/^	int Read(char *pBuf,int iReadLen);$/;"	p	class:CFileMap	access:public	signature:(char *pBuf,int iReadLen)
+Write	filemap.cpp	/^int CFileMap::Write(const char *pBuf,int iWriteLen)$/;"	f	class:CFileMap	signature:(const char *pBuf,int iWriteLen)
+Write	filemap.h	/^	int Write(const char *pBuf,int iWriteLen);$/;"	p	class:CFileMap	access:public	signature:(const char *pBuf,int iWriteLen)
+__INCLUDE_FILE_MAP_H__	filemap.h	4;"	d
+format	tags	/^!_TAG_FILE_FORMAT	2	\/extended format; --format=1 will not append ;" to lines\/$/;"	v
+m_fd	filemap.h	/^	int 	m_fd;			\/\/file descriptor of FileName$/;"	m	class:CFileMap	access:private
+m_iMapLength	filemap.h	/^	int		m_iMapLength; 	\/\/mapping length$/;"	m	class:CFileMap	access:private
+m_iOperatorPos	filemap.h	/^	int		m_iOperatorPos; \/\/current operator position$/;"	m	class:CFileMap	access:private
+m_pStart	filemap.h	/^	void* 	m_pStart; 		\/\/base address$/;"	m	class:CFileMap	access:private
+~CFileMap	filemap.cpp	/^CFileMap::~CFileMap()$/;"	f	class:CFileMap	signature:()
+~CFileMap	filemap.h	/^	~CFileMap();$/;"	p	class:CFileMap	access:public	signature:()
