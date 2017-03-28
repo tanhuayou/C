@@ -39,5 +39,11 @@
     int d = (int)sizeof(c = a + b);
     printf("a=%d,b=%d,c=%d,d=%d\n",a,b,c,d );
     // a=1,b=2,c=4,d=4
-    // sizeof OP not Fun
-```    
+    // sizeof 是符号而不是函数
+```   
+
+----------
+### 类型转换 ###
+> * 在表达式中，short和char都会被转换为int(unsigned int);float被转为double。
+> * 在任何两种类型的操作中，等级较低的类型会被转换为较高的类型。
+> * 在赋值语句中，会先把=右边的数据类型转换为左边的类型。
