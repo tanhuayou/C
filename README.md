@@ -32,3 +32,12 @@
 |  ,        |逗号运算符 |自左向右 ->   |
 
 
+```C
+    int a = 1;
+    int b = 2;
+    int c = 4;
+    int d = (int)sizeof(c = a + b);
+    printf("a=%d,b=%d,c=%d,d=%d\n",a,b,c,d );
+    // a=1,b=2,c=4,d=4
+    // sizeof OP not Fun
+```    
